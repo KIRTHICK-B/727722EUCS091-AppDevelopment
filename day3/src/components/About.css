@@ -1,0 +1,84 @@
+/* #about {
+  height: 84.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background: transparent;
+  
+  }
+  .abouts
+  {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-content {
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  .about-content h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+   */
+  /* AboutUs.css */
+
+/* About.css */
+.container {
+  width:100%;
+  max-width: none; /* Remove any max-width limit */
+  margin: 50px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  color: #e74c3c;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.icon {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-basis: 20%; /* Four items in a row, each taking up 24% of the row width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  text-align: center;
+  height: 400px;
+}
+
+.icon img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+.icon h4 {
+  color: #e74c3c;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.icon p {
+  color: #555;
+  font-size: 14px;
+}

@@ -1,0 +1,30 @@
+.home-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    /* background-image: url('12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+
+  }
+  .content{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-content h1 {
+    font-size: 60px;
+    color: white;
+  }
+  
+  .home-content p {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
